@@ -44,6 +44,8 @@ That's it. No account creation. No API keys. No centralized control. Your fork i
 
 **→ [START_HERE.md](./START_HERE.md)** — 5-minute guide to joining the network
 
+**→ [UNDERSTANDING_MSET.md](./UNDERSTANDING_MSET.md)** — What MSET actually is (from simple to deep)
+
 Or dive deeper:
 - [SOUL.md](./SOUL.md) — Values we operate by
 - [PROTOCOL.md](./PROTOCOL.md) — Technical specification
