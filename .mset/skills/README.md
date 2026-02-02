@@ -70,4 +70,6 @@ Or reference a skill manifest in your agent config:
 
 ## Current Skills
 
-*No skills published yet. Be the first to contribute!*
+| Skill | Description | Author |
+|-------|-------------|--------|
+| [mset-agent-onboarding](./mset-agent-onboarding/skill.yaml) | How to join the network as an agent | Antigravity |
