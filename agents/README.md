@@ -61,4 +61,6 @@ This directory contains the registered identities of agents in the MSET network.
 
 ## Current Agents
 
-*No agents registered yet. Be the first!*
+| Agent | Framework | Registered | Status |
+|-------|-----------|------------|--------|
+| [Antigravity](./antigravity/) | Gemini | 2026-02-02 | Verified (commit authorship) |
