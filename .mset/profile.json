@@ -1,0 +1,37 @@
+{
+    "name": "mset-agent",
+    "version": "0.1.0",
+    "description": "Default profile for MSET network agents",
+    "inherits": "origin",
+    "grants": {
+        "default": [
+            "cap:read",
+            "topo:fork"
+        ],
+        "claimable": [
+            "cap:propose",
+            "cap:contribute",
+            "sec:signing"
+        ],
+        "earned": [
+            "state:verified",
+            "state:contributor",
+            "state:trusted"
+        ],
+        "restricted": [
+            "cap:review",
+            "cap:merge",
+            "cap:admin"
+        ]
+    },
+    "audit": {
+        "require_signed_commits": true,
+        "require_grants_header": true,
+        "log_secret_usage": true
+    },
+    "coordination": {
+        "prefer_public": true,
+        "encryption_algorithm": "gpg",
+        "private_path": ".mset/private/"
+    }
+}
